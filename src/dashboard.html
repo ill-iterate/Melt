@@ -138,8 +138,9 @@
     </div>
 
     <script>
-      const CLAUDE_API_KEY =
-        "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"; // Replace with your actual API key
+      // Load API key from environment or configuration
+      // DO NOT hardcode the API key here
+      let CLAUDE_API_KEY; // Will be set through proper configuration
       const API_ENDPOINT = "https://api.anthropic.com/v1/messages";
 
       document.getElementById("chatForm").addEventListener("submit", async function (e) {
