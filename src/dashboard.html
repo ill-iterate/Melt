@@ -138,9 +138,7 @@
     </div>
 
     <script>
-      // Load API key from environment or configuration
-      // DO NOT hardcode the API key here
-      let CLAUDE_API_KEY; // Will be set through proper configuration
+      // We'll load the API key from config.js instead
       const API_ENDPOINT = "https://api.anthropic.com/v1/messages";
 
       document.getElementById("chatForm").addEventListener("submit", async function (e) {
