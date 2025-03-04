@@ -71,6 +71,7 @@
         margin-bottom: 15px;
         padding: 10px;
         border-radius: 8px;
+        white-space: pre-wrap;
       }
       .user-message {
         background: #007bff;
@@ -105,6 +106,13 @@
       }
       #sendMessage:hover {
         background: #0056b3;
+      }
+      #sendMessage:disabled {
+        background: #cccccc;
+        cursor: not-allowed;
+      }
+      .loading {
+        opacity: 0.5;
       }
     </style>
   </head>
